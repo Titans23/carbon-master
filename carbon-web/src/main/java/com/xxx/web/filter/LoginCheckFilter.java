@@ -50,6 +50,7 @@ public class LoginCheckFilter implements Filter {
 //            Claim id = jwt.getClaim("id");
 //            System.out.println(id.asString());
 //            System.out.println(id.asString());
+//            System.out.println(id.asString());
             filterChain.doFilter(servletRequest,servletResponse);
         } catch (Exception e){
 
