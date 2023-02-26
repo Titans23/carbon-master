@@ -48,9 +48,8 @@ public class LoginCheckFilter implements Filter {
         try{
             DecodedJWT jwt = JwtUtils.verifyToken(token);
 //            Claim id = jwt.getClaim("id");
-//            System.out.println(id.asString());
-//            System.out.println(id.asString());
-//            System.out.println(id.asString());
+//
+            System.out.println("hot-");
             filterChain.doFilter(servletRequest,servletResponse);
         } catch (Exception e){
 
